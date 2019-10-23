@@ -1,56 +1,56 @@
-category, project, firstrelease, bugs
-big-data, Hadoop Core, 2006, 2861
-big-data, Hadoop Yarn, 2012, 2090
-big-data, Hadoop HDFS, 2009, 3214
-big-data, Hadoop MapReduce, 2009, 2210
-big-data, Flink, 2015, 3317
-big-data, Spark, 2014, 6380
-big-data, Oozie, 2012, 1420
-big-data, Kafka, 2013, 2404
-big-data, Storm, 2017, 1033
-big-data, Giraph, 2018, 373
-data-base, Hive, 2010, 7105
-data-base, Cassandra, 2009, 5001
-data-base, Lucene Core, 2006, 2004
-data-base, HBase, 2006, 6693
-data-base, ZooKeeper, 2006, 882
-data-base, Derby, 2006, 1083
-data-base, OpenJPA, 2006, 653
-data-base, Phoenix, 2006, 1564
-cloud, Libcloud, 2011, 229
-cloud, jclouds, 2013, 435
-cloud, Mesos, 2013, 2558
-cloud, VCL, 2013, 425
-cloud, Helix, 2014, 188
-cloud, Ignite, 2015, 2726
-network-server, TomEE, 2013, 713
-network-server, Mina, 2006, 171
-network-server, MinaFtpServer, 2008, 66
-network-server, MinaSSHD, 2009, 285
-network-server, Mina Vysper, 2010, 66
-network-server, Camel, 2009, 3232
-web-framework, MyFaces, 2005, 913
-web-framework, Struts, 2002, 725
-web-framework, Nutch, 2012, 547
-web-framework, Isis, 2013, 410
-web-framework, Solr, 2006, 2249
-web-framework, Tapestry, 2009, 711
-security, Kerby, 2006, 179
-security, Fortress, 2015, 76
-security, Syncope, 2012, 654
-build-management, Archiva, 2007, 320
-build-management, Ivy, 2006, 204
-build-management, MNG, 2012, 584
-build-management, Buildr, 2009, 227
-library, Commons Compress, 2009, 189
-library, Commons Colections, 2001, 103
-library, Commons IO, 2004, 103
-library, Commons Math, 2004, 418
-library, Commons Codec, 2003, 64
-library, Commons LANG, 2002, 264
-library, Log4j 2, 2014, 754
-library, Crunch, 2013, 292
-library, Tika, 2011, 762
-Machine-learning, SystemML, 2017, 489
-Machine-learning, Mahout, 2010, 592
-Machine-learning, MADlibr, 2017, 83
+category,project,firstrelease,bugs
+big-data,Hadoop Core,2006,2861
+big-data,Hadoop Yarn,2012,2090
+big-data,Hadoop HDFS,2009,3214
+big-data,Hadoop MapReduce,2009,2210
+big-data,Flink,2015,3317
+big-data,Spark,2014,6380
+big-data,Oozie,2012,1420
+big-data,Kafka,2013,2404
+big-data,Storm,2017,1033
+big-data,Giraph,2018,373
+data-base,Hive,2010,7105
+data-base,Cassandra,2009,5001
+data-base,Lucene Core,2006,2004
+data-base,HBase,2006,6693
+data-base,ZooKeeper,2006,882
+data-base,Derby,2006,1083
+data-base,OpenJPA,2006,653
+data-base,Phoenix,2006,1564
+cloud,Libcloud,2011,229
+cloud,jclouds,2013,435
+cloud,Mesos,2013,2558
+cloud,VCL,2013,425
+cloud,Helix,2014,188
+cloud,Ignite,2015,2726
+network-server,TomEE,2013,713
+network-server,Mina,2006,171
+network-server,MinaFtpServer,2008,66
+network-server,MinaSSHD,2009,285
+network-server,Mina Vysper,2010,66
+network-server,Camel,2009,3232
+web-framework,MyFaces,2005,913
+web-framework,Struts,2002,725
+web-framework,Nutch,2012,547
+web-framework,Isis,2013,410
+web-framework,Solr,2006,2249
+web-framework,Tapestry,2009,711
+security,Kerby,2006,179
+security,Fortress,2015,76
+security,Syncope,2012,654
+build-management,Archiva,2007,320
+build-management,Ivy,2006,204
+build-management,MNG,2012,584
+build-management,Buildr,2009,227
+library,Commons Compress,2009,189
+library,Commons Colections,2001,103
+library,Commons IO,2004,103
+library,Commons Math,2004,418
+library,Commons Codec,2003,64
+library,Commons LANG,2002,264
+library,Log4j 2,2014,754
+library,Crunch,2013,292
+library,Tika,2011,762
+Machine-learning,SystemML,2017,489
+Machine-learning,Mahout,2010,592
+Machine-learning,MADlibr,2017,83
