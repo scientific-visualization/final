@@ -14,6 +14,7 @@ data-base, Cassandra, 2009, 5001
 data-base, Lucene Core, 2006, 2004
 data-base, HBase, 2006, 6693
 data-base, ZooKeeper, 2006, 882
+data-base, Derby, 2006, 1083
 data-base, OpenJPA, 2006, 653
 data-base, Phoenix, 2006, 1564
 cloud, Libcloud, 2011, 229
