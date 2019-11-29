@@ -2,6 +2,10 @@
 	margin-top: 20px;
 }
 
+#visualization {
+  overflow: auto;
+}
+
 html,
 body {
 	height: 100%;
