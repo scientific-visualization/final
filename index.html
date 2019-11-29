@@ -317,5 +317,51 @@
 	<script src="assets/js/d3/d3.layout.js"></script>
 	<script src="assets/js/CodeFlower.js"></script>
 	<script src="assets/js/dataConverter.js"></script>
+
+	<script type="text/javascript">
+      var currentCodeFlower;
+      var createCodeFlower = function(json) {
+        // update the jsonData textarea
+        document.getElementById('jsonData').value = JSON.stringify(json);
+        // remove previous flower to save memory
+        if (currentCodeFlower) currentCodeFlower.cleanup();
+        // adapt layout size to the total number of elements
+        var total = countElements(json);
+        w = parseInt(Math.sqrt(total) * 30, 10);
+        h = parseInt(Math.sqrt(total) * 30, 10);
+        // create a new CodeFlower
+        currentCodeFlower = new CodeFlower("#visualization", w, h).update(json);
+      };
+      d3.json('data.json', createCodeFlower);
+      document.getElementById('project').addEventListener('change', function() {
+        d3.json(this.value, createCodeFlower);
+      });
+      document.getElementById('jsonInput').addEventListener('submit', function(e) {
+        e.preventDefault();
+        document.getElementById('visualization').scrollIntoView();
+        var json = JSON.parse(document.getElementById('jsonData').value);
+        currentCodeFlower.update(json);
+      });
+      document.getElementById('jsonConverter').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var origin = this.children[0].children[0].value;
+        var data = this.children[0].children[1].value;
+        var json = convertToJSON(data, origin);
+        document.getElementById('visualization').scrollIntoView();
+        createCodeFlower(json);
+      });
+    </script>
+    
+    <script type="text/javascript">
+  		var _gaq = _gaq || [];
+  		_gaq.push(['_setAccount', 'UA-26354577-2']);
+  		_gaq.push(['_trackPageview']);
+  		(function() {
+    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+    </script>
+
 </body>
 </html>
