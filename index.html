@@ -76,6 +76,41 @@
 				</div>
 			</div>
 
+			<div class="content">
+		      <div>
+		        <h1>CodeFlower Source code visualization Hadoop Release 3.2.1 LOC</h1>
+		        <p class="lead">This experiment visualizes source repositories using an interactive tree.
+		          Each disc represents a file, with a radius proportional to the number of lines of code (loc).
+		        </p>
+		        <form class="form-inline">
+		          <fieldset>
+		          <label>Example projects from GitHub:</label>
+		          <select id="project">
+		            <option value="data/hadoop_sc_release_3_2_1.json">Hadoop Release 3.2.1</option>
+		          </select>
+		          </fieldset>
+		        </form>
+		        <div id="visualization"></div>
+		        <h2>Input data format</h2>
+		        <p>The <code>jsonData</code> format taken as input to <code>update()</code> is extremely simple.
+		          It's a JavaScript object representing a file tree structure. Each node must have a <code>name</code>
+		          (the file or directory name), leaf nodes must have a <code>size</code> (the number of lines of code or the file),
+		          and directory nodes must have a <code>children</code> property containing an array of nodes.
+		          As an example, here is the input for the currently displayed CodeFlower.
+		          You can modify it at will and click the update button to see the effect of your changes on the CodeFlower.</p>
+		        <form id="jsonInput">
+		        <fieldset>
+		          <textarea id="jsonData"></textarea>
+		          <div class="pull-right">
+		            <button type="submit" class="btn btn-primary btn-large">Update</button>
+		          </div>
+		        </fieldset>
+		        </form>
+
+		      </div>
+    		</div>
+
+
 		</section>
 
 </header>
